@@ -1,4 +1,6 @@
+/*
 package com.example.mybatisoraclesetting.modelVo;
 
-public class GuestVo {
+public class ForderVo {
 }
+*/
