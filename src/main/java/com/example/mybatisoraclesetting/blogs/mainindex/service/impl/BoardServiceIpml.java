@@ -1,8 +1,6 @@
-/*
-package com.example.mybatisoraclesetting.service.serviceIpml;
-
-import com.example.mybatisoraclesetting.modelVo.ForderVo;
-import com.example.mybatisoraclesetting.service.BoardService;
+package com.example.mybatisoraclesetting.blogs.mainindex.service.impl;
+import com.example.mybatisoraclesetting.blogs.mainindex.modelVo.ForderVo;
+import com.example.mybatisoraclesetting.blogs.mainindex.service.BoardService;
 import org.springframework.stereotype.Service;
 
 import java.sql.SQLException;
@@ -16,4 +14,4 @@ public class BoardServiceIpml implements BoardService {
         return null;
     }
 }
-*/
+

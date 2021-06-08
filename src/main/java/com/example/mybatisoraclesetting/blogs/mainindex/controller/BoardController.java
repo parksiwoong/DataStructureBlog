@@ -1,10 +1,9 @@
-/*
-package com.example.mybatisoraclesetting.controller;
+package com.example.mybatisoraclesetting.blogs.mainindex.controller;
 
-import com.example.mybatisoraclesetting.modelVo.BoardVo;
-import com.example.mybatisoraclesetting.modelVo.ForderVo;
-import com.example.mybatisoraclesetting.modelVo.GuestVo;
-import com.example.mybatisoraclesetting.service.serviceIpml.BoardServiceIpml;
+import com.example.mybatisoraclesetting.blogs.mainindex.modelVo.BoardVo;
+import com.example.mybatisoraclesetting.blogs.mainindex.modelVo.ForderVo;
+import com.example.mybatisoraclesetting.blogs.mainindex.modelVo.GuestVo;
+import com.example.mybatisoraclesetting.blogs.mainindex.service.impl.BoardServiceIpml;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -29,11 +28,13 @@ public class BoardController {
                             ForderVo folderVo, ModelMap mv)throws SQLException, Exception {
         try{
             mv.addAttribute("flist", service.selectFolderList(folderVo));
-
+           /* if(boardVo.getBbsSn() != null){
+                boardVo.setPageMode("selectV");
+            }*/
         }catch (Exception e){
             e.printStackTrace();
         }return "null";
     }
 
 }
-*/
+

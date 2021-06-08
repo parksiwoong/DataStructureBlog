@@ -1,6 +1,8 @@
-/*
-package com.example.mybatisoraclesetting.modelVo;
+package com.example.mybatisoraclesetting.blogs.mainindex.modelVo;
 
+import lombok.Data;
+
+@Data
 public class GuestVo {
 }
-*/
+
